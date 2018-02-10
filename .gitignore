@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
@@ -20,6 +21,8 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 =======
+=======
+>>>>>>> d511a48b27e4ca55eaef9d67fabbdfe096fdf423
 # Logs
 logs
 *.log
@@ -79,4 +82,7 @@ typings/
 # dotenv environment variables file
 .env
 
+<<<<<<< HEAD
 >>>>>>> 2f57339a7bda8575156e0ca997a5615a7519029f
+=======
+>>>>>>> d511a48b27e4ca55eaef9d67fabbdfe096fdf423
