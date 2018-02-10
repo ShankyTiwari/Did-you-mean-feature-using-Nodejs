@@ -1,0 +1,36 @@
+<html ng-app="app"  ng-controller="app">
+	<head>
+	<title>Did you mean feature using Nodejs</title>
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+    	<link rel="stylesheet" href="css/style.css">
+  	</head>
+  	<body>
+    	<div class="container">
+			<div class="app-heading">
+				<h2>
+					Did you mean feature in Nodejs
+				</h2>
+			</div>
+			<div class="app-idea">
+				<h4>
+ 					Type something in below textbox for example: <span>aple,carot</span>
+				</h4>
+			</div>
+		</div>
+		<div class="container">
+			<div class="app">
+				<input type="text" class="form-control " ng-model="suggestion" placeholder="sasan">
+				<div ng-show="suggestionCollection.length > 0" class="container">
+					<h3> Did you mean ?</h3>
+					<div class="suggestion-collection">
+						<span ng-repeat="suggestion in suggestionCollection">
+							{{suggestion}}
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body> 
+	<script src="js/angular.min.js"></script>
+	<script src="js/script.js"></script>
+</html>
